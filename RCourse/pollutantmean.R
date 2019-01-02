@@ -1,5 +1,5 @@
 pollutantmean <- function(directory, pollutant, id = 1:332){
-  setwd(file.path("C:/Users/thana/OneDrive - Thammasat University/Desktop/Bank/Cousera/Data science spacialization/R Course/",directory))
+  setwd(file.path("C:/Users/",directory))
   ldf <- list() # creates a list
   checkID <- list()
   mymean <- 0
